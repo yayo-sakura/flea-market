@@ -1,0 +1,200 @@
+.header__inner {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    background: black;
+}
+
+.header__logo {
+    margin-left: 10px;
+}
+
+h1 {
+    height: 80px;
+    margin-top: 12px;
+}
+
+.form {
+    display: flex;
+}
+
+.form__input {
+    width: 560px;
+    height: 80px;
+    margin-left: 25%;
+    margin-top: 12px;
+}
+
+.keyword {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    background: white;
+    font-size: 20px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: end;
+    width: 463px;
+    height: 80px;
+}
+
+.header__form--logout {
+    border: none;
+    background: black;
+    color: white;
+    width: 135px;
+    height: 47px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header__form--mypage {
+    border: none;
+    background: black;
+    color: white;
+    width: 135px;
+    height: 47px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header__form--sell {
+    border: none;
+    background: white;
+    border-radius: 4px;
+    width: 100px;
+    height: 49px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.purchase-content {
+    display: flex;
+}
+
+.purchase-puroduct {
+    width: 178px;
+    height: 178px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.purchase-puroduct__details {
+    width: 326px;
+    height: 187px;
+    margin-top: 90px;
+}
+
+.product-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.purchase-content__right {
+    width: 440px;
+    height: 230px;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+
+.purchase-content__right--payment {
+    border: 1px solid rgba(0, 0, 0, 1);
+    display: flex;
+    width: 440px;
+    height: 115px;
+}
+
+.purchase-content__right--title {
+    font-size: 20px;
+    width: 220px;
+    height: 115px;
+    text-align: center;
+    margin: 41px 0 ;
+}
+
+.purchase-content__right--item {
+    font-size: 24px;
+    width: 220px;
+    height: 115px;
+    text-align: center;
+    margin: 41px 0 ;
+}
+
+.line {
+    display: block;
+    width: 805px;
+    margin-left: 80px;
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+.purchase-form__form {
+    display: flex;
+}
+
+.purchase-form__payment-method{
+    display: block;
+    width: 326px;
+    height: 85px;
+    margin-left: 115px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.purchase-form__select {
+    width: 265px;
+    height: 31px;
+    margin-left: 176px;
+    margin-bottom: 70px;
+}
+
+.purchase-form__btn {
+    width: 440px;
+    height: 60px;
+    margin-left: 640px;
+    background: rgba(255, 85, 85, 1);
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.payment-form__form {
+    display: flex;
+}
+
+.payment-form__address {
+    display: inline-block;
+    width: 326px;
+    height: 85px;
+    margin-left: 115px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+
+.change__link {
+    width: 115px;
+    height: 85px;
+    margin-left: 350px;
+    text-decoration: none;
+    color: rgba(0, 115, 204, 1);
+}
+
+.payment-form__input {
+    width: 280px;
+    height: 58px;
+    margin-left: 176px;
+    display: block;
+    margin-bottom: 50px;
+}

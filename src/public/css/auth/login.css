@@ -1,0 +1,64 @@
+.header__inner {
+    width: 100vw;
+    height: 55px;
+    background: black;
+    display: flex;
+}
+
+.header__logo {
+    margin-left: 10px;
+}
+
+h1 {
+    height: 55px;
+    margin-top: 0px;
+}
+
+.login-form__heading {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 80px;
+}
+
+.login-form {
+    margin: 0 auto;
+    width: 750px;
+    height: 745px;
+}
+
+.login-form__label {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.login-form__input {
+    width: 750px;
+    height: 50px;
+    border: none;
+    border: 1px solid rgba(95, 95, 95, 1);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.login-form__btn {
+    text-align: center;
+    border: none;
+    background: rgba(255, 85, 85, 1);
+    border-radius: 5px;
+    color: white;
+    width: 750px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 80px;
+}
+
+.footer__link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 115, 204, 1);
+    font-size: 20px;
+    margin-top: 20px;
+}
